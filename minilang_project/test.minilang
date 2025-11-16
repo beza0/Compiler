@@ -1,0 +1,16 @@
+int main {
+    int x = 5;
+    float y = 2.5;
+    string s = "Hello";
+
+    if (x > 3) {
+        print(s);
+    } else {
+        print("Small");
+    }
+
+    for (i = 0; i < 3; i = i + 1) {
+        print(i);
+    }
+}
+

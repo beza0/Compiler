@@ -1,0 +1,42 @@
+MiniLang Programming Language Specification
+
+MiniLang is a simple programming language designed for educational purposes.
+It supports variables, loops, conditions, comments, and basic operations.
+
+1. Keywords
+   if, else, while, for, int, float, string, print, return
+
+2. Identifiers
+   Identifiers start with a letter or underscore (_) followed by letters or digits.
+   Example: myVar, _count, temp1
+
+3. Comments
+   // single-line comment
+   /* multi-line comment */
+
+4. Numbers
+   Integer: sequence of digits (0-9)
+   Float: digits followed by a dot and more digits (e.g., 3.14)
+
+5. Strings
+   Text enclosed in double quotes ("example")
+
+6. Operations
+   +, -, *, /, =, ==, !=, >, <, >=, <=
+
+7. Loops
+   while and for statements are supported.
+   Example:
+      for (i = 0; i < 10; i = i + 1) {
+          print(i);
+      }
+
+8. Conditions
+   if (x > 5) {
+       print("Big");
+   } else {
+       print("Small");
+   }
+
+9. Punctuation
+   (, ), {, }, ;, ,
