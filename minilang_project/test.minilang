@@ -1,16 +1,12 @@
 int main {
-    int x = 5;
-    float y = 2.5;
-    string s = "Hello";
 
-    if (x > 3) {
-        print(s);
+    // Tüm değişken bildirimleri ve kontrol yapıları buraya
+    int a = 5;
+    int b = 3;
+    if (a > b) {
+        print(a + b);
     } else {
-        print("Small");
+        print("a is not greater than b");
     }
 
-    for (i = 0; i < 3; i = i + 1) {
-        print(i);
-    }
 }
-
